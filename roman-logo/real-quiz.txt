@@ -1,0 +1,145 @@
+LXXIV,  lt 90
+XVII,  fd :diameter / 2
+CXVIII,  rt 180
+XXIV,  rt 90
+XXX,  rt 90
+LXIII,  pd
+XLVI,  pu
+VIII,  fd :diameter / 4
+CIII,  pu
+XC,END
+XXXIV,  lt 90
+LXIX,  pu
+II,  lt 90
+XCIII,  setxy :offset 0
+CIV,END
+LXXVII,  pu
+XXVII,  bk 35
+LXI,TO three :offset
+LXXIX,END
+XXXVIII,TO one :offset
+LXII,  setxy :offset 0
+LXVII,  pd
+LXXXVI,  fd 115
+LXXXIII,  pd
+IX,  pu
+LIX,END
+CXXXVIII,one -280
+XII,  lt 90
+LXXI,  curve 50
+XLVII,END
+XX,
+XXXVII,
+LVII,  rt 180
+LIII,  fd 70
+CXXIV,  rt 180
+CXXXIX,two -200
+XXXV,  pu
+IV,  pu
+CXXIII,  pd
+CXI,  pu
+XLIV,  curve 50
+XCIV,  pd
+CVI,TO six :offset
+LII,  pd
+CXV,  pu
+CXXV,  fd 100
+CXLV,ht
+XCV,  fd 100
+CXXVII,  fd 50
+LXXXIX,  pu
+XXI,TO zero :offset
+LI,  rt 90
+LXXVIII,  rt 90
+LXX,  setxy :offset + 25 75
+CXXIX,  pu
+L,  setxy :offset 100
+CXXI,TO seven :offset
+CX,  fd 75
+XI,  fd :diameter
+XXXII,  rt 180
+XVI,  lt 90
+LV,  rt 90
+CVIII,  rt 180
+LXXXI,TO four :offset
+XLI,  curve 50
+LXXXIV,  fd 100
+CXXXIII,st
+XIII,  pd
+XXXIX,  setxy :offset + 46 78
+CII,  lt 90
+XCVIII,  setxy :offset + 15 75
+XVIII,  rt 90
+CI,  curve 50
+XCI,
+XIX,END
+LXV,  pu
+XCVI,  pu
+LXXX,
+CXVII,  curve 50
+XLIII,  setxy :offset + 54 22
+CXX,
+LXVI,  setxy :offset + 50 0
+CVII,  setxy :offset 100
+XIV,  fd :diameter / 4
+LXVIII,  fd 75
+CXII,  setxy :offset + 50 100
+LIV,  bk 35
+LXXXVII,  lt 150
+LXXIII,  setxy :offset + 50 50
+CV,
+XCVII,  rt 90
+CXVI,  setxy :offset + 25 25
+XXXI,  fd 35
+XLIX,TO two :offset
+CXXXI,
+CXXII,  setxy :offset 100
+CXIV,  fd 75
+XLII,  rt 180
+CXIII,  pd
+CIX,  pd
+LX,
+CXXXV,setwidth 3
+X,  lt 90
+CXXXII,window cs
+LXXXV,  rt 150
+XXII,  pu
+XXVI,  fd 70
+XLV,  lt 110
+CXL,three -100
+CXXXVII,zero -350
+XCII,TO five :offset
+XXIII,  setxy :offset 100
+I,TO curve :diameter
+LVIII,  pu
+CXXXVI,
+CXLI,four 0
+LXXV,  pd
+XXXVI,END
+VII,  pd
+LXXVI,  fd 50
+XXXIII,  fd 70
+LXXII,  pu
+XXVIII,  rt 90
+CXLIII,six 175
+III,  arc 180 :diameter / 2
+XLVIII,
+LVI,  fd 100
+CXLIV,seven 260
+XXV,  pd
+XL,  lt 70
+XV,  pu
+C,  setxy :offset + 15 25
+XCIX,  curve 50
+CXXVIII,  lt 90
+V,  fd :diameter / 2
+CXXXIV,setpencolor 1
+XXIX,  fd 100
+CXXX,END
+LXIV,  fd 75
+CXIX,END
+CXLII,five 100
+CXXVI,  lt 90
+LXXXII,  setxy :offset 0
+VI,  lt 90
+LXXXVIII,  fd 100

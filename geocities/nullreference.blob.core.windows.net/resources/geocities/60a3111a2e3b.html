@@ -1,0 +1,95 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-2">
+	<title>Holly Candy Border</title>
+</head>
+
+<body vlink="#C0C0C0" text="#FFFFFF" link="#00FF00" bgcolor="#008000" background="res/holl-can-bord.gif">
+
+<script>
+
+function getLetter(letters, length, index) {
+	
+	// count down from the last element of the array because I think this is faster?
+	for(var count = length - 1; count >=0; count--) {
+		
+		// get this letter
+		var letter = letters[count];
+		
+		// make sure it's not an error
+		if (typeof letter == "undefined") {
+			return '';
+		}
+		
+		// if it matches the index return it
+		if (count == index) {
+			return letter;
+		}
+	}
+}
+
+
+function locateDisruptor() {
+
+	var alpha = ['F', 'F', 'S', 'X', 'M', 'E', 'U', 'Y', 'L', 'O', 'D', 'Z', 'A', 'W', 'K', 'B', 'C', 'Q', 'V', 'P', 'R', 'N', 'I', 'J', 'T', 'G', 'H', ',', '.', ';', ' '];
+	
+	// this is the number of letters in the alphabet string
+	var end = alpha.length;
+	
+	// these are the letters in the location
+	var location_letters = [15, 12, 21, 0, 0]
+	
+	
+	var location = "";
+	
+	// look up each letter 
+	for(var count = 0; count < location_letters.length; count++) {
+		location += getLetter(alpha, end, location_letters[count]);
+	}
+	
+	alert("Futrino Disruptor(tm) location: " + location);
+}
+</script>
+
+
+<table>
+<tbody><tr><td width="135" valign="LEFT" align="TOP"><img src="res/vspacer.gif" width="135" height="1">
+</td><td width="612" valign="LEFT" align="TOP">
+<center>
+<img src="res/acandle1.gif" alt="" width="136" height="152" border="0">
+<img src="res/merrycmas.gif" alt="Merry Christmas" width="282" height="130" border="0">
+<img src="res/ani-cmas-01.gif" alt="" width="138" height="184" border="0"><br>
+<img src="res/cmascandle.gif" alt="" width="243" height="257" border="0">
+
+<br>
+
+<br>
+<img src="res/candyline.gif" alt="candy line" width="586" height="11" border="0"><br>
+<br>
+<input type="button" value="Click HERE to locate the next Futrino Disruptor(tm)" onclick="locateDisruptor()" />
+<br>
+<br>
+<img src="res/candyline.gif" alt="candy line" width="586" height="11" border="0"><br>
+<br>
+You are the number 6 visitor to<br>
+This Page since Tuesday, October 09, 2001<br> 
+<br>
+<br>
+<img src="res/snowman1.gif" alt="" width="430" height="250" border="0">
+<br>
+<img src="res/candyline.gif" alt="candy line" width="586" height="11" border="0"><br>
+<a href="http://members.tripod.com/~Joyce_P/card1.html"> Card 1</a>&nbsp;
+<a href="http://members.tripod.com/~Joyce_P/chris2.html">Card 2</a>&nbsp;
+<a href="http://members.tripod.com/~Joyce_P/chris3.html">Card 3</a>&nbsp;
+<a href="http://members.tripod.com/~Joyce_P/chris4.html">Card 4</a>&nbsp;
+<a href="http://members.tripod.com/~Joyce_P/chris5.html">Card 5</a>&nbsp;
+<a href="http://members.tripod.com/~Joyce_P/card6.html">Card 6</a>&nbsp;
+<a href="http://members.tripod.com/~Joyce_P/card7.html">Card 7</a>&nbsp;
+<a href="http://members.tripod.com/~Joyce_P/card8.html">Card 8</a>&nbsp;
+<a href="http://members.tripod.com/~Joyce_P/card9.html">Card 9</a>&nbsp;
+<a href="http://joyce_p.tripod.com/christmas/">Christmas 2001</a><br>
+<img src="res/candyline.gif" alt="candy line" width="586" height="11" border="0"><br>
+
+</center>
+
+
+</td></tr></tbody></table></body></html>

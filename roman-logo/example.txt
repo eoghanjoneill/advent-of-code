@@ -1,0 +1,9 @@
+LXXXIX,  fd 25
+XL     , fd 50
+XXXIV ,  penup
+XIII   , rt 45
+XCIX   , label [HERE]
+VI     , clearscreen window hideturtle
+XLVIII , rt 90
+XVIII  , label [RIGHT]
+IX     , setlabelheight 50
