@@ -1,0 +1,7 @@
+Jump C must be completed before jump A can start.
+Jump C must be completed before jump F can start.
+Jump A must be completed before jump B can start.
+Jump A must be completed before jump D can start.
+Jump B must be completed before jump E can start.
+Jump D must be completed before jump E can start.
+Jump F must be completed before jump E can start.

@@ -1,0 +1,3 @@
+London to Aberdeen = 464
+London to Amsterdam = 518
+Aberdeen to Amsterdam = 141
